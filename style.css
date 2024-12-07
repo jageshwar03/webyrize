@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100vw;
+    
+}
+
+main{
+    height: 100%;
+    width: 100vw;
+}
+nav{
+    height: 120px;
+    width: 100%;
+    background-color: aqua;
+}
+ nav .top_nav{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(176, 195, 195);
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+  nav .top_nav .tnav_1 h1{
+    font-size: 20px;
+ }
+
+
+  nav .top_nav .tnav_1 h1:hover{
+   color: white;
+ }
+
+  nav .top_nav .tnav_2 ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+     /* text-decoration: none; */
+ }
+   nav .top_nav .tnav_2 ul li{
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+ }
+ 
+ nav .bottum_nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 192, 192);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    
+}
+
+ nav .bottum_nav .b-part-1 ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+ }
+
+  nav .bottum_nav .b-part-1 ul li:hover{
+    color: blue;
+  }
+
+  nav .bottum_nav .btn1 button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+  }
+   nav .bottum_nav .btn1 button:hover{
+    background-color: aqua;
+    color: black;
+   }
+
+.hero-1{
+    height: 100vh;
+    width: 100wh;
+    background-color: brown;
+    background-image: url(https://webywize.in/img/carousel-1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    padding-top: 300px;
+    padding-left: 100px;
+  
+}
+.hero-1 h1{
+    font-size: 20px;
+}
+.hero-1 h2{
+    font-size: 55px;   
+}
+
+.hero-1 button{
+   padding: 20px;
+   padding-left: 35px;
+   padding-right: 35px;
+   border-radius: 30px;  
+   border: 2px solid black;
+   background-color: blue;
+   color: whitesmoke;
+   font-size: 16px;
+   margin-top: 10px;
+}
+
+.hero-2{
+    height: 70vh;
+    width: 100wh;
+    background-color: rgb(15, 179, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-2 .hero-2-p-1{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+     padding-left: 50px;
+     padding-top: 50px;
+}
+.hero-2 .hero-2-p-1 h4 p{
+    font-size: 18px;
+}
+.hero-2 .hero-2-p-2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(196, 255, 2);
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.hero-2 .hero-2-p-2 h4 p{
+    font-size: 18px;
+}
+.hero-2 .hero-2-p-3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 255, 119);
+        padding-left: 50px;
+    padding-top: 50px;
+}
+.hero-2 .hero-2-p-3 h4 p{
+    font-size: 18px;
+}
+.hero-2 .hero-2-p-4{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(136, 2, 91);
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.hero-2 .hero-2-p-4 h4 p{
+    font-size: 18px;
+}
+
+.hero-3{
+    height: 100vh;
+    width: 100wh;
+    background-color: red;
+    background-image: url(https://webywize.in/img/about.jpg);
+    background-position: center;
+    background-size: cover;
+       display: flex;
+   align-items: end;
+   justify-content: end;
+}
+.about-us{
+    height: 600px;
+    width: 550px;
+    background-color:whitesmoke;
+    position: relative;
+    bottom: 20px;
+    padding-left:40px;
+    padding-top: 20px;
+}
+
+.aboutus-1{
+    height: 34%;
+    width: 100%;
+    background-color: rgb(196, 255, 2);
+}
+.about-us .aboutus-1 span{
+   color: rgb(5, 5, 255);
+   font-size: 20px;
+}
+
+.about-us .aboutus-1 span{
+   color:rgb(0, 4, 255);
+   font-size: 20px;
+}
+.hero-3 .about-us .aboutus-1 h1{
+
+    margin-top: 10px;
+}
+.hero-3 .about-us .aboutus-1 p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.about-us .content{
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+.about-us .content .content-1{
+    height: 100%;
+    width: 50%;
+    background-color: burlywood;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.about-us .content .content-2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(114, 66, 3);
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.about-us button{
+    background-color: blue;
+    padding: 20px;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    color: whitesmoke;
+    border-radius: 30px;
+}
+
+.hero-4{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(196, 255, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+   
+}
+
+
+.hero-4 p{
+   font-size: 30px;
+   color: blue;
+}
+
+.hero-4 h1{
+   font-size: 70px;
+}
+
+.hero-5{
+   height: 100vh;
+   width: 100vw;
+   background-color: rgb(246, 34, 34); 
+     display: grid;
+  grid: repeat(2, 350px) / auto-flow 500px;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 10px;
+  margin: 10px;
+ 
+}
+.hero-5 .box1{
+    /* height: 350px;
+    width: 30%; */
+    background-color: aqua;
+    margin: 8px;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+ 
+  
+}
+
+.hero-5 .box2{
+    /* height: 350px;
+    width: 30%; */
+    background-color: rgb(12, 71, 71);
+       margin: 8px;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.hero-5 .box3{
+    /* height: 350px;
+    width: 30%; */
+    background-color: rgb(5, 46, 250);
+       margin: 8px;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.hero-5 .box4{
+    /* height: 350px;
+    width: 30%; */
+    background-color: rgb(0, 255, 51);
+       margin: 8px;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.hero-5 .box5{
+    /* height: 350px;
+    width: 30%; */
+    background-color: rgb(195, 4, 96);
+       margin: 8px;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.hero-5 .box6{
+    /* height: 350px;
+    width: 30%; */
+    background-color: rgb(255, 27, 202);
+       margin: 8px;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.hero-6{
+    height: 40vh;
+    width: 100vw;
+    background-color: aqua;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.hero-6 p{
+ font-size: 30px;
+ color: blue;
+}
+
+.hero-6 h2{
+ font-size: 70px;
+}
+
+.hero-7{
+    height: 60vh;
+    width: 100vw;
+    background-color: rgb(156, 132, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 5px;
+
+}
+ .hero-7 .part1 {
+    height: 100%;
+    width: 30%;
+    background-color: chocolate;
+}
+.hero-7 .part1 .bgimg-part{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://webywize.in/img/project-3.jpg);
+}
+.hero-7 .part1 .content-part{
+ height: 30%;
+ width: 100%;
+ padding-left: 30px;
+ padding-top: 30px;
+ line-height: 20px;
+ 
+}
+
+.hero-7 .part1 .content-part h4{
+    margin-bottom: 12px;
+    font-size: 25px;
+}
+
+ .hero-7 .part2 {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(55, 0, 151);
+}
+
+
+.hero-7 .part2 .bgimg-part-a{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://webywize.in/img/project-2.jpg);
+}
+
+.hero-7 .part2 .content-part-a{
+ height: 30%;
+ width: 100%;
+ padding-left: 30px;
+ padding-top: 30px;
+ line-height: 20px;
+ 
+}
+
+
+ .hero-7 .part3{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(30, 186, 210);
+}
+
+.hero-7 .part3 .bgimg-part-b{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://webywize.in/img/project-4.jpg);
+}
+
+.hero-7 .part3 .content-part-b{
+ height: 30%;
+ width: 100%;
+ padding-left: 30px;
+ padding-top: 30px;
+ line-height: 20px;
+ 
+}
+
+.hero-8{
+    height:70vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+}
+.hero-8 .content-section{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(78, 168, 138);
+}
+.hero-8 .content-section P ,h1{
+margin-left: 80PX;
+margin-top: 20px;
+}
+.hero-8 .content-section h1{
+font-size: 50px;
+}
+.hero-8 .content-section p{
+font-size: 20px;
+}
+
+
+ .hero-8 .number-section{
+    height: 60px;
+    width: 250px;
+    background: #e53232;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+ }
+
+ .hero-8 .number-section #part-1 {
+    height: 100%;
+    width: 50px;
+    background-color: blue;
+ }
+ .hero-8 .number-section #part-2{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 20px;
+    padding-left: 20PX;
+ }
+
+
+.hero-8 .form-section{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(61, 198, 61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-8 .form-section h1{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.hero-8 .form-section .form .mobile{
+    margin-bottom: 30px;
+}
+
+.hero-8 .form-section .form .n-email{
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .foot-part-1{
+height: 50vh;
+width: 25vw;
+background-color: blue;
+text-align: left;
+}
+
+footer .foot-part-1 h2,p{
+    padding-left: 30px;
+}
+footer .foot-part-1 h2{
+    margin-top: 50px;
+}
+footer .foot-part-1 h2:hover{
+ background-color: rgb(172, 6, 78);
+}
+footer .foot-part-1 p{
+   padding-top: 20px;
+}
+  
+
+footer .foot-part-2{
+height: 50vh;
+width: 25vw;
+background-color: rgb(11, 251, 123);
+}
+footer .foot-part-2 h2{
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+footer .foot-part-2 h2:hover{
+ background-color: blue;
+}
+footer .foot-part-2 ul{
+    padding-left: 20px;
+    list-style: none;
+    padding: 10px;
+}
+footer .foot-part-2 ul li{
+    padding: 10px;
+}
+footer .foot-part-2 ul li:hover{
+  color: blue;
+  background: yellow;
+}
+
+footer .foot-part-3{
+height: 50vh;
+width: 25vw;
+background-color: rgb(110, 104, 104);
+}
+
+footer .foot-part-3 h2{
+ padding-top: 30px;
+ margin-bottom: 15px;
+}
+
+footer .foot-part-3 h3{
+ padding-left: 20px;
+ margin-bottom: 15px;
+}
+footer .foot-part-3 p{
+    padding-left: 20px;
+}
+footer .foot-part-3 h5,h2{
+    padding-left: 20px;
+}
+
+footer .foot-part-4{
+height: 50vh;
+width: 25vw;
+background-color: rgb(150, 169, 11);
+}
+footer .foot-part-4 h2{
+    margin: 15px;
+}
+footer .foot-part-4 p{
+    padding-left: 40pz;
+}
+ 
+
+footer .foot-part-4 .signup{
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    margin-top: 30px;
+    padding-left: 30px;
+}
